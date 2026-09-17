@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loadtest-fixture
+spec:
+  replicas: 0
+  selector:
+    matchLabels:
+      app: loadtest-fixture
+  template:
+    metadata:
+      labels:
+        app: loadtest-fixture
+    spec:
+      containers:
+        - name: pause
+          image: registry.k8s.io/pause:3.9
