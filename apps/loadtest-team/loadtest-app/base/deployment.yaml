@@ -12,6 +12,7 @@ spec:
       labels:
         app: loadtest-fixture
     spec:
+      serviceAccountName: loadtest-fixture
       containers:
         - name: pause
           image: registry.k8s.io/pause:3.9
