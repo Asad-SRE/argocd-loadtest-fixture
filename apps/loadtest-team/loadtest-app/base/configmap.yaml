@@ -4,4 +4,4 @@ metadata:
   name: loadtest-fixture
 data:
   purpose: Disposable fixture for GitOps controller load testing
-  churned_at: "2026-09-18T14:20:36Z"
+  churned_at: "2026-09-21T08:48:55Z"
